@@ -239,6 +239,7 @@
 .Celebration-one{
     width: 393px;
     height: 255px;
+    
 }
 .Celebration-sub-one{
     width: 328px;
@@ -355,6 +356,7 @@
     
     width: 1320px;
     height: 662px;
+    position: relative;
     
 }
 
@@ -362,11 +364,19 @@
 .sale-banner-img-section-part-one{
     margin-top: 72px;
     margin-left: 40px;
+    position: relative;
+    z-index: 1;
 
   
 }
 .sale-banner-img-section-part-two{
     margin-top: 180px;
+}
+.Rectangle{
+    position: absolute;
+    width: 1320px;
+    height: 229px;
+    top: 80%;
 }
 
 
@@ -469,6 +479,8 @@
 }
 .last-banner-email{
     border-radius: 50px;
+
+    
     
   
 
@@ -479,6 +491,7 @@
 
     border-radius: 0px 50px 50px 0px ;
     margin-top: 1.3px;
+    
     
     
     color:rgb(255, 255, 255);
