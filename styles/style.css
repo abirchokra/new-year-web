@@ -86,13 +86,20 @@
     width: 1320px;
     height: 600px;
     margin: auto auto;
-    margin-top: 150px;
+    margin-top: 190px;
     margin-bottom: 80px;
     border: none;
+    display: flex;
 
     
     
 
+}
+.party-pic{
+    margin-top: 80px;
+    color: #FFFFFF;
+
+   
 }
 .party-item{
     width: 642px;
@@ -121,4 +128,143 @@
     text-transform: uppercase;
     
     cursor: pointer;
+}
+
+/* place section  */
+.location{
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    height: 482px;
+    width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 190px;
+    margin-bottom: 140px;
+    
+
+}
+.date-time-place {
+    width: 549px;
+    height: 272px;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    padding:110px;
+
+
+
+}
+.date-time-place span{
+    color: #FF0000;
+}
+.place {
+    font-size: 32px;
+    font-family: sans-serif;
+    font-weight:600;
+    text-align: center;
+
+}
+.date {
+    text-align: center;
+    font-size: 32px;
+    font-family: sans-serif;
+    font-weight:600;
+
+}
+.time{
+    text-align: center;
+    font-size: 32px;
+    font-family: sans-serif;
+    font-weight:600;
+    
+}
+.place-btn-prime{
+   margin-left: 200px;
+   width: 167px;
+   margin-top: 35px;
+} 
+.place-btn{
+    color: #FFFFFF;
+    background-color: #FF0000;
+    padding:16px 32px 16px 32px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+/* comming soon section  */
+
+.comming-soon{
+    margin-top: 250px;
+   
+  
+   
+}
+.Celebration{
+    display: flex;
+    margin: 140px;
+    text-align: center; 
+    
+    
+}
+.Celebration-one{
+    width: 393px;
+    height: 255px;
+    margin-left: 140px;
+    margin-right:40px ;
+
+}
+.best-offer{
+    font-size: 24px;
+    font-family:  sans-serif;
+    font-weight: 500;
+    color: #FF0000;
+    
+    
+    
+}
+.soon{
+    font-size: 48px;
+    font-family: serif;
+    font-weight: 900;
+    color: rgb(7, 2, 17);
+    margin-top: 10px;
+    margin-bottom: 15PX;
+
+}
+.comming-subtitle{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: rgba(7, 2, 17, 0.6);
+    
+
+}
+.Celebration-two{
+    width: 463px;
+    height: 463px;
+    margin-right:40px ;
+}
+.Celebration-three{
+    width: 276px;
+    height: 170px;
+  
+   
+
+}
+.date{
+    color: #FF0000;
+    font-size: 48px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-bottom: 4px;
+} 
+.Celebration-three-subtitle{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: sans-serif;
+    color: rgba(7, 2, 17, 0.6);
+    
 }
